@@ -1,4 +1,4 @@
-var HYPE = "\
+var hype = "\
 %                                                                                                                     <br>\
 %                                                                                                     %%%%%%%%%%%%%%%%<br>\
 %                                                                                                                   %%<br>\
@@ -18,7 +18,7 @@ var HYPE = "\
 
 				
 function textMatrix(container) {
-	var str = HYPE;
+	var str = hype;
 	var ret = "";
 	var tab = new Array(str.length);
 	var spanS = "<span style=\"color:#E3E3E3\">";
